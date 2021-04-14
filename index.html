@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Otsosi</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="settings__container">
+        <div class="filters">
+          <div class="filter__btn-container">
+            <div class="btn-container btn-container--faction"></div>
+            <div class="btn-container btn-container--base"></div>
+            <div class="btn-container btn-container--class"></div>
+            <input
+              class="filter__check-multi filter__check-multi--faction"
+              type="checkbox"
+              name="multi"
+            />
+          </div>
+        </div>
+        <div class="sorts"></div>
+      </section>
+      <section class="heroes__container">
+        <div class="heroes" id="heroes-section"></div>
+      </section>
+    </main>
+
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
