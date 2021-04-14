@@ -16,7 +16,7 @@ export default function () {
     //добавляем на страницу всех героев пользователя
     let heroTmp = document.createElement('div');
     heroTmp.className = 'hero';
-    heroTmp.id = index + 1;
+    heroTmp.id = index;
     heroTmp.style.cssText = generateImgName(item);
     item.sessionId = heroTmp.id;
     heroArea.append(heroTmp);

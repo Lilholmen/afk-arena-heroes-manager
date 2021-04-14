@@ -2,6 +2,7 @@ import { factions, based, classes } from './heroes-static.js';
 import filterHeroesBy from './filter-heroes-by.js';
 import hideFiltredHeroes from './hide-filtred-heroes.js';
 import heroesUser from './heroes-user.js';
+import { filterFunction } from './new-filter.js';
 
 export default function () {
   const filters = [factions, based, classes];
@@ -14,7 +15,7 @@ export default function () {
     btnAll.id = filterType + '_all';
     btnAll.style.cssText = `background: url("img/all.png");background-size: 30px 30px;`;
     btnAll.addEventListener('click', () =>
-      hideFiltredHeroes(filterHeroesBy(filterBtn.id))
+      filterFunction(btnAll.id.slice(0, -2))
     );
     filterBlock.append(btnAll);
 
@@ -23,9 +24,7 @@ export default function () {
       filterBtn.className = `filter__btn filter__btn--${filterType}`;
       filterBtn.id = filterType + '_' + i;
       filterBtn.style.cssText = `background: url("img/${filterBtn.id}.png");background-size: 30px 30px;`;
-      filterBtn.addEventListener('click', () =>
-        hideFiltredHeroes(filterHeroesBy(filterBtn.id))
-      );
+      filterBtn.addEventListener('click', () => filterFunction(filterBtn.id));
       filterBlock.append(filterBtn);
     }
   });
