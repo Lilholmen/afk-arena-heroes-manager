@@ -1,0 +1,18 @@
+.btn-container {
+  display: flex;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  background: #332011;
+}
+
+.filter__btn {
+  min-height: 30px;
+  min-width: 30px;
+  margin-right: 5px;
+  outline: unset;
+}
+
+.filter__btn--active {
+  border: rgb(214, 193, 0) solid 2px;
+  border-radius: 15px;
+}

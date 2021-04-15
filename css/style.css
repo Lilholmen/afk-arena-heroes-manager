@@ -18,38 +18,8 @@
   background: #55331a;
 }
 
-.btn-container {
-  display: flex;
-  margin-bottom: 5px;
-  border-radius: 15px;
-  background: #332011;
-}
-
-.filter__btn {
-  min-height: 30px;
-  min-width: 30px;
-  margin-right: 5px;
-}
-
 .heroes__container {
   height: 100vh;
   width: 100%;
   background: #ecd19a;
-}
-
-.heroes {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-}
-
-.hero {
-  min-height: 64px;
-  min-width: 64px;
-  margin: 10px;
-  display: inline-block;
-}
-
-.hero--hidden {
-  display: none;
 }

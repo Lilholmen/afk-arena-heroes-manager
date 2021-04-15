@@ -1,23 +1,40 @@
-import { factions, based, classes, heroesUser, heroesGrid } from './app.js';
+import {
+  factions,
+  based,
+  classes,
+  heroesUser,
+  heroesGrid,
+  changeButtonsActivity,
+} from '../app.js';
 
-const filterMask = {
+export const filterMask = {
   faction: [],
   base: [],
   class: [],
 };
 
 export function filterFunction(filterButtonId) {
+  //разбиваем полученую строку на массив [тип параметра, его id(число или a)]
   const params = [filterButtonId.slice(0, -2), +filterButtonId.slice(-1)];
 
   if (!isNaN(params[1])) {
+    //если нажата кнопка НЕ all
     if (filterMask[params[0]].includes(params[1])) {
+      //если такой фильтр уже применён то удаляем его
       filterMask[params[0]] = filterMask[params[0]].filter(
         (item) => item !== params[1]
       );
+      changeButtonsActivity(params[0], params[1], -1);
     } else {
+      //если такой фильтр еще не включен, то включаем его
       filterMask[params[0]].push(+params[1]);
+      changeButtonsActivity(params[0], params[1]);
     }
-  } else filterMask[params[0]] = [];
+  } else {
+    //если нажата кнопка all
+    filterMask[params[0]] = [];
+    changeButtonsActivity(params[0], params[1]);
+  }
 
   heroesUser.forEach((hero) => {
     if (useFilterMask(hero)) {

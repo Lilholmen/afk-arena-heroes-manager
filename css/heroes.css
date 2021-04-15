@@ -1,0 +1,16 @@
+.heroes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.hero {
+  min-height: 64px;
+  min-width: 64px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.hero--hidden {
+  display: none;
+}
