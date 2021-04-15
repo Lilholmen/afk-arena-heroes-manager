@@ -1,7 +1,10 @@
-import { factions, based, classes, heroes } from './heroes-static.js';
-import heroesUser from './heroes-user.js';
+import { factions, based, classes, heroes, heroesUser } from '../app.js';
 
-export default function () {
+createHeroes();
+
+export const heroesGrid = document.querySelectorAll('.hero');
+
+function createHeroes() {
   const heroArea = document.getElementById('heroes-section');
 
   heroesUser.map((userHero) => {

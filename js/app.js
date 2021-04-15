@@ -1,10 +1,5 @@
-import { factions, based, classes, heroes } from './heroes-static.js';
-import heroesUser from './heroes-user.js';
-import createFilterButtons from './create-filter-buttons.js';
-import createHeroes from './create-heroes.js';
-import filterHeroesBy from './filter-heroes-by.js';
-
-createFilterButtons();
-createHeroes();
-
-export const heroesGrid = document.querySelectorAll('.hero');
+export { factions, based, classes, heroes } from './res/heroes-static.js';
+export { heroesUser } from './res/heroes-user.js';
+export { filterFunction } from './filter-machine.js';
+export { heroesGrid } from './init/create-heroes.js';
+import './init/create-filter-buttons.js';

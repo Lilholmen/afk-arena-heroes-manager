@@ -1,10 +1,8 @@
-import { factions, based, classes } from './heroes-static.js';
-import filterHeroesBy from './filter-heroes-by.js';
-import hideFiltredHeroes from './hide-filtred-heroes.js';
-import heroesUser from './heroes-user.js';
-import { filterFunction } from './new-filter.js';
+import { factions, based, classes, filterFunction } from '../app.js';
 
-export default function () {
+createFilterButtons();
+
+function createFilterButtons() {
   const filters = [factions, based, classes];
 
   document.querySelectorAll('.btn-container').forEach((filterBlock, index) => {

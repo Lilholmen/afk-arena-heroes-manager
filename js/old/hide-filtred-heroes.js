@@ -1,4 +1,4 @@
-import { heroesGrid } from './app.js';
+import { heroesGrid } from '../app.js';
 
 export default function hideFiltredHeroes(filtred) {
   heroesGrid.forEach((hero) => {

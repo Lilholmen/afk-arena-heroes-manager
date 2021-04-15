@@ -1,6 +1,4 @@
-import { factions, based, classes } from './heroes-static.js';
-import { heroesGrid } from './app.js';
-import heroesUser from './heroes-user.js';
+import { factions, based, classes, heroesUser, heroesGrid } from './app.js';
 
 const filterMask = {
   faction: [],
@@ -12,11 +10,13 @@ export function filterFunction(filterButtonId) {
   const params = [filterButtonId.slice(0, -2), +filterButtonId.slice(-1)];
 
   if (!isNaN(params[1])) {
-    if (filterMask[params[0]].includes(params[1]))
+    if (filterMask[params[0]].includes(params[1])) {
       filterMask[params[0]] = filterMask[params[0]].filter(
         (item) => item !== params[1]
       );
-    else filterMask[params[0]].push(+params[1]);
+    } else {
+      filterMask[params[0]].push(+params[1]);
+    }
   } else filterMask[params[0]] = [];
 
   heroesUser.forEach((hero) => {
