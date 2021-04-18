@@ -6,3 +6,4 @@ export { heroesGrid } from './init/create-heroes.js';
 export { changeButtonsActivity } from './filter/change-buttons-activity.js';
 export { card } from './card.js';
 import './init/create-filter-buttons.js';
+import './init/create-sort-buttons.js';

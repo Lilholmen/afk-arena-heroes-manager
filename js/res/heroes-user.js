@@ -105,7 +105,6 @@ export const heroesUser = [
   },
   {
     id: '203',
-    name: 'raine',
     ascention: ascentions[0],
     si: null,
     furniture: 0,
@@ -124,7 +123,6 @@ export const heroesUser = [
   },
   {
     id: '206',
-    name: 'thane',
     ascention: ascentions[0],
     si: null,
     furniture: 0,
