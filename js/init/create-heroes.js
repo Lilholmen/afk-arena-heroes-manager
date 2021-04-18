@@ -22,7 +22,7 @@ function createHeroes() {
     heroTmp.id = index;
     heroTmp.style.cssText = generateImgName(item);
     item.sessionId = heroTmp.id;
-    heroTmp.addEventListener('mouseenter', (event) => card(event));
+    heroTmp.addEventListener('click', (event) => card(event));
     heroArea.append(heroTmp);
   });
 

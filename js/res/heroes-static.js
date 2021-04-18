@@ -1,41 +1,4 @@
-export const factions = [
-  'lightbearer', //0
-  'mauler', //1
-  'wilder', //2
-  'graveborn', //3
-  'celestial', //4
-  'hypogean', //5
-  'dimensional', //6
-];
-
-export const based = [
-  'strength', //0
-  'intelligence', //1
-  'agility', //2
-];
-
-export const classes = [
-  'warrior', //0
-  'tank', //1
-  'ranger', //2
-  'mage', //3
-  'support', //4
-];
-
-export const ascentions = [
-  'e_0',
-  'e_1',
-  'l_0',
-  'l_1',
-  'm_0',
-  'm_1',
-  'a_0',
-  'a_1',
-  'a_2',
-  'a_3',
-  'a_4',
-  'a_5',
-];
+import { factions, based, classes } from './heroes-params.js';
 
 export const heroes = [
   {

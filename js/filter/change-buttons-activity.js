@@ -1,7 +1,7 @@
 export function changeButtonsActivity(
   targetFilterType,
   targetFilterId,
-  modifier
+  modifier //получаем массив активных фильтров, если удаляется фильтр
 ) {
   const targetBtns = document.querySelectorAll(
     `.filter__btn--${targetFilterType}`
@@ -15,6 +15,11 @@ export function changeButtonsActivity(
 
   if (modifier) {
     targetBtns[targetFilterId + 1].classList.remove('filter__btn--active');
+    if (modifier.length === 0) {
+      document
+        .querySelector(`#${targetFilterType}_all`)
+        .classList.add('filter__btn--active');
+    }
     return;
   }
 

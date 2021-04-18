@@ -26,7 +26,7 @@ export function filterFunction(filterButtonId) {
       filterMask[params[0]] = filterMask[params[0]].filter(
         (item) => item !== params[1]
       );
-      changeButtonsActivity(params[0], params[1], -1);
+      changeButtonsActivity(params[0], params[1], filterMask[params[0]]);
     } else {
       //если такой фильтр еще не включен, то включаем его
       filterMask[params[0]].push(+params[1]);
