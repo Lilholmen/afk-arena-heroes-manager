@@ -1,9 +1,15 @@
-import { factions, based, classes, filterFunction } from '../app.js';
+import {
+  factions,
+  based,
+  classes,
+  ascentions,
+  filterFunction,
+} from '../app.js';
 
 createFilterButtons();
 
 function createFilterButtons() {
-  const filters = [factions, based, classes];
+  const filters = [factions, based, classes, ascentions];
 
   document.querySelectorAll('.btn-container').forEach((filterBlock, index) => {
     const filterType = filterBlock.classList[1].slice(15);

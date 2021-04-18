@@ -1,4 +1,4 @@
-import { factions, based, classes, heroes, heroesUser } from '../app.js';
+import { factions, based, classes, heroes, heroesUser, card } from '../app.js';
 
 createHeroes();
 
@@ -22,6 +22,7 @@ function createHeroes() {
     heroTmp.id = index;
     heroTmp.style.cssText = generateImgName(item);
     item.sessionId = heroTmp.id;
+    heroTmp.addEventListener('mouseenter', (event) => card(event));
     heroArea.append(heroTmp);
   });
 

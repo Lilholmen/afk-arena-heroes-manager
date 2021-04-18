@@ -22,6 +22,21 @@ export const classes = [
   'support', //4
 ];
 
+export const ascentions = [
+  'e_0',
+  'e_1',
+  'l_0',
+  'l_1',
+  'm_0',
+  'm_1',
+  'a_0',
+  'a_1',
+  'a_2',
+  'a_3',
+  'a_4',
+  'a_5',
+];
+
 export const heroes = [
   {
     id: '001',

@@ -2,6 +2,7 @@ import {
   factions,
   based,
   classes,
+  ascentions,
   heroesUser,
   heroesGrid,
   changeButtonsActivity,
@@ -11,6 +12,7 @@ export const filterMask = {
   faction: [],
   base: [],
   class: [],
+  ascention: [],
 };
 
 export function filterFunction(filterButtonId) {
@@ -63,6 +65,11 @@ function useFilterMask(hero) {
     filterMask.class.includes(classes.indexOf(hero.class))
   )
     successFilterCounter++;
+  if (
+    filterMask.ascention.length === 0 ||
+    filterMask.ascention.includes(ascentions.indexOf(hero.ascention))
+  )
+    successFilterCounter++;
 
-  return successFilterCounter < 3;
+  return successFilterCounter < 4;
 }
