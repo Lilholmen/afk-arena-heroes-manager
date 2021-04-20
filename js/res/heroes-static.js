@@ -1,4 +1,6 @@
-import { factions, based, classes } from './heroes-params.js';
+import { heroesParams } from './heroes-params.js';
+
+const { factions, based, classes } = heroesParams;
 
 export const heroes = [
   {

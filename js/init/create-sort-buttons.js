@@ -1,42 +1,19 @@
-import {
-  factions,
-  based,
-  classes,
-  ascentions,
-  heroesUser,
-  heroesGrid,
-} from '../app.js';
+import { heroesParams, sortHeroesGrid } from '../app.js';
+
+const { factions, based, classes, ascentions, sigItems } = heroesParams;
 
 const sortParams = {
   faction: factions,
-  based: based,
+  base: based,
   class: classes,
   ascention: ascentions,
+  si: sigItems,
+  furniture: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
 };
 
 createSortButtons();
 
-function sortHeroesGrid(params, key) {
-  const heroesContainer = document.querySelector('.heroes');
-
-  const heroesSorted = [...heroesUser];
-  let itemsArray = [];
-  heroesSorted.sort((a, b) => params.indexOf(a[key]) - params.indexOf(b[key]));
-  for (let i = 0; i < heroesGrid.length; i++) {
-    itemsArray.push(heroesContainer.removeChild(heroesGrid[i]));
-  }
-  itemsArray
-    .sort(
-      (nodeA, nodeB) =>
-        heroesSorted.indexOf(heroesUser[nodeA.id]) -
-        heroesSorted.indexOf(heroesUser[nodeB.id])
-    )
-    .forEach((node) => heroesContainer.appendChild(node));
-}
-/* for (let i = 0; i < heroesSorted.length; i++)
-  console.log(heroesSorted[i].class);
- */
-function createSortButtons() {
+export function createSortButtons() {
   const sortButtonsArea = document.querySelector('.sort__btn-container');
   for (let param in sortParams) {
     let sortBtn = document.createElement('button');

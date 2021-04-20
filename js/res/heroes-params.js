@@ -1,33 +1,39 @@
-export const factions = [
-  'lightbearer', //0
-  'mauler', //1
-  'wilder', //2
-  'graveborn', //3
-  'celestial', //4
-  'hypogean', //5
-  'dimensional', //6
-];
+export const heroesParams = {
+  factions: [
+    'lightbearer', //0
+    'mauler', //1
+    'wilder', //2
+    'graveborn', //3
+    'celestial', //4
+    'hypogean', //5
+    'dimensional', //6
+  ],
 
-export const based = [
-  'strength', //0
-  'intelligence', //1
-  'agility', //2
-];
+  based: [
+    'strength', //0
+    'intelligence', //1
+    'agility', //2
+  ],
 
-export const classes = [
-  'warrior', //0
-  'tank', //1
-  'ranger', //2
-  'mage', //3
-  'support', //4
-];
+  classes: [
+    'warrior', //0
+    'tank', //1
+    'ranger', //2
+    'mage', //3
+    'support', //4
+  ],
 
-export const ascentions = [
-  'elite', //0
-  'legendary', //1
-  'mythic', //2
-  'ascended', //3
-];
+  ascentions: [
+    'ascended', //0
+    'mythic', //1
+    'legendary', //2
+    'elite', //3
+  ],
+
+  sigItems: [30, 20, 10, 0, null],
+
+  furniture: [9, 8, , 7, 6, 5, 4, 3, 2, 1, 0],
+};
 
 /* export const ascentions = [
   'elite_0', //0

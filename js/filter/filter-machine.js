@@ -1,12 +1,11 @@
 import {
-  factions,
-  based,
-  classes,
-  ascentions,
+  heroesParams,
   heroesUser,
   heroesGrid,
   changeButtonsActivity,
 } from '../app.js';
+
+const { factions, based, classes, ascentions } = heroesParams;
 
 export const filterMask = {
   faction: [],
@@ -43,8 +42,6 @@ export function filterFunction(filterButtonId) {
       heroesGrid[hero.sessionId].classList.add('hero--hidden');
     } else heroesGrid[hero.sessionId].classList.remove('hero--hidden');
   });
-
-  console.log(filterMask);
 }
 
 function useFilterMask(hero) {

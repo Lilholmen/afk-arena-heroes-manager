@@ -1,4 +1,6 @@
-import { factions, based, classes, heroes, heroesUser, card } from '../app.js';
+import { heroesParams, heroes, heroesUser, card } from '../app.js';
+
+const { factions, based, classes } = heroesParams;
 
 createHeroes();
 
@@ -15,13 +17,13 @@ function createHeroes() {
     );
   });
 
-  heroesUser.map((item, index) => {
+  heroesUser.map((hero, mainId) => {
     //добавляем на страницу всех героев пользователя
-    let heroTmp = document.createElement('div');
+    const heroTmp = document.createElement('div');
     heroTmp.className = 'hero';
-    heroTmp.id = index;
-    heroTmp.style.cssText = generateImgName(item);
-    item.sessionId = heroTmp.id;
+    heroTmp.id = mainId;
+    hero.sessionId = heroTmp.id;
+    heroTmp.style.cssText = generateImgName(hero);
     heroTmp.addEventListener('click', (event) => card(event));
     heroArea.append(heroTmp);
   });
