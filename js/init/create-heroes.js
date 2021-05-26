@@ -19,24 +19,58 @@ function createHeroes() {
 
   heroesUser.map((hero, mainId) => {
     //добавляем на страницу всех героев пользователя
-    const heroTmp = document.createElement('div');
-    heroTmp.className = 'hero';
-    heroTmp.id = mainId;
-    hero.sessionId = heroTmp.id;
-    heroTmp.style.cssText = generateImgName(hero);
-    heroTmp.addEventListener('click', (event) => card(event));
-    heroArea.append(heroTmp);
+    createHero(hero, mainId, heroArea);
   });
+}
 
-  function generateImgName(hero) {
-    return (
-      'background: url("img/' +
-      factions.indexOf(hero.faction) +
-      based.indexOf(hero.base) +
-      classes.indexOf(hero.class) +
-      '_' +
-      hero.name.slice(0, 3) +
-      '.jpg");background-size: 64px 64px;'
-    );
+function createHero(hero, mainId, heroArea) {
+  const heroTmp = document.createElement('div');
+
+  heroTmp.className = generateClassName(hero);
+  heroTmp.id = mainId;
+  hero.sessionId = heroTmp.id;
+  heroTmp.style.cssText = generateBgImg(hero);
+  heroTmp.addEventListener('click', (event) => card(event));
+
+  const factionIcon = document.createElement('img');
+  factionIcon.src = `../img/faction_${factions.indexOf(hero.faction)}.png`;
+  factionIcon.className = 'faction-icon';
+  heroTmp.appendChild(factionIcon);
+
+  if (hero.stars) {
+    addStars(heroTmp, hero.stars);
   }
+
+  heroArea.appendChild(heroTmp);
+}
+
+function generateBgImg(hero) {
+  return (
+    'background: url("img/' +
+    factions.indexOf(hero.faction) +
+    based.indexOf(hero.base) +
+    classes.indexOf(hero.class) +
+    '_' +
+    hero.name.slice(0, 3) +
+    '.jpg");background-size: 64px 64px;'
+  );
+}
+
+function generateClassName(hero) {
+  return `hero ${hero.faction} ${hero.ascention}`;
+}
+
+function addStars(heroTmp, starsCount) {
+  const star = document.createElement('div');
+  star.className = 'star-image-span';
+
+  for (let starN = 1; starN <= starsCount; starN++) {
+    const starImg = document.createElement('img');
+    starImg.src = '../img/ascention_star.png';
+    starImg.className = 'star';
+
+    star.appendChild(starImg);
+  }
+
+  heroTmp.appendChild(star);
 }

@@ -5,12 +5,52 @@
 }
 
 .hero {
-  min-height: 64px;
-  min-width: 64px;
+  min-height: 70px;
+  min-width: 70px;
   margin: 10px;
   display: inline-block;
+  border: purple solid 3px;
+  border-radius: 20% 0;
 }
 
 .hero--hidden {
   display: none;
+}
+
+.faction-icon {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+}
+
+.star-image-span {
+  margin-top: 46px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 10px 0;
+}
+
+.star {
+  height: 15px;
+  width: 15px;
+  margin: 0 -2px -2px -2px;
+}
+
+.ascended {
+  border-color: white;
+}
+
+.mythic,
+.mythicP {
+  border-color: red;
+}
+
+.legendary,
+.legendaryP {
+  border-color: yellow;
+}
+
+.elite,
+.eliteP {
+  border-color: purple;
 }

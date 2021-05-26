@@ -25,14 +25,17 @@ export const heroesParams = {
 
   ascentions: [
     'ascended', //0
-    'mythic', //1
-    'legendary', //2
-    'elite', //3
+    'mythicP', //1
+    'mythic', //2
+    'legendaryP', //3
+    'legendary', //4
+    'eliteP', //5
+    'elite', //6
   ],
 
   sigItems: [30, 20, 10, 0, null],
 
-  furniture: [9, 8, , 7, 6, 5, 4, 3, 2, 1, 0],
+  furnitures: [9, 8, , 7, 6, 5, 4, 3, 2, 1, 0],
 };
 
 /* export const ascentions = [

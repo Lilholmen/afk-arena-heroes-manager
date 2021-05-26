@@ -1,6 +1,7 @@
 import { heroesParams, sortHeroesGrid } from '../app.js';
 
-const { factions, based, classes, ascentions, sigItems } = heroesParams;
+const { factions, based, classes, ascentions, sigItems, furnitures } =
+  heroesParams;
 
 const sortParams = {
   faction: factions,
@@ -8,7 +9,7 @@ const sortParams = {
   class: classes,
   ascention: ascentions,
   si: sigItems,
-  furniture: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
+  furniture: furnitures,
 };
 
 createSortButtons();
