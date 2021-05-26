@@ -16,13 +16,16 @@ createSortButtons();
 
 export function createSortButtons() {
   const sortButtonsArea = document.querySelector('.sort__btn-container');
+
   for (let param in sortParams) {
-    let sortBtn = document.createElement('button');
+    const sortBtn = document.createElement('button');
+
     sortBtn.className = 'sort_btn';
     sortBtn.textContent = 'by ' + param;
     sortBtn.addEventListener('click', () => {
       sortHeroesGrid(sortParams[param], param);
     });
+
     sortButtonsArea.append(sortBtn);
   }
 }
