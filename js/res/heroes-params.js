@@ -35,7 +35,7 @@ export const heroesParams = {
 
   sigItems: [30, 20, 10, 0, null],
 
-  furnitures: [9, 8, , 7, 6, 5, 4, 3, 2, 1, 0],
+  furnitures: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
 };
 
 /* export const ascentions = [

@@ -23,14 +23,14 @@
   width: 20px;
 }
 
-.star-image-span {
+.stars-block {
   margin-top: 46px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0 0 10px 0;
 }
 
-.star {
+.stars-block__star {
   height: 15px;
   width: 15px;
   margin: 0 -2px -2px -2px;
