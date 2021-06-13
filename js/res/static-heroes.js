@@ -9,7 +9,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/422_ath.jpg',
+    bgImage: '422_ath',
   },
   {
     id: '002',
@@ -21,7 +21,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/414_eli.jpg',
+    bgImage: '414_eli',
   },
   {
     id: '003',
@@ -33,7 +33,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/413_flo.jpg',
+    bgImage: '413_flo',
   },
   {
     id: '004',
@@ -45,7 +45,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/401_ort.jpg',
+    bgImage: '401_ort',
   },
   {
     id: '005',
@@ -57,7 +57,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/424_tal.jpg',
+    bgImage: '424_tal',
   },
   {
     id: '006',
@@ -69,7 +69,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/400_wu .jpg',
+    bgImage: '400_wu ',
   },
   {
     id: '007',
@@ -81,7 +81,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/413_zap.jpg',
+    bgImage: '413_zap',
   },
   {
     id: '008',
@@ -93,7 +93,19 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/420_aln.jpg',
+    bgImage: '420_aln',
+  },
+  {
+    id: '009',
+    name: 'morael',
+    faction: 'celestial',
+    base: 'inteligence',
+    class: 'mage',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    bgImage: '413_mor',
   },
   {
     id: '101',
@@ -105,7 +117,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/504_ezi.jpg',
+    bgImage: '504_ezi',
   },
   {
     id: '102',
@@ -117,7 +129,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/513_meh.jpg',
+    bgImage: '513_meh',
   },
   {
     id: '103',
@@ -129,7 +141,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/520_zol.jpg',
+    bgImage: '520_zol',
   },
   {
     id: '104',
@@ -141,7 +153,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/513_kha.jpg',
+    bgImage: '513_kha',
   },
   {
     id: '105',
@@ -153,7 +165,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/501_mez.jpg',
+    bgImage: '501_mez',
   },
   {
     id: '106',
@@ -165,7 +177,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/522_luc.jpg',
+    bgImage: '522_luc',
   },
   {
     id: '107',
@@ -177,7 +189,19 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/524_mor.jpg',
+    bgImage: '524_mor',
+  },
+  {
+    id: '108',
+    name: 'leofric',
+    faction: 'hypogean',
+    base: 'inteligence',
+    class: 'support',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    bgImage: '514_leo',
   },
   {
     id: '201',
@@ -189,7 +213,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/000_est.jpg',
+    bgImage: '000_est',
   },
   {
     id: '202',
@@ -201,7 +225,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/013_bel.jpg',
+    bgImage: '013_bel',
   },
   {
     id: '203',
@@ -213,7 +237,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/024_rai.jpg',
+    bgImage: '024_rai',
   },
   {
     id: '204',
@@ -225,7 +249,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/014_ros.jpg',
+    bgImage: '014_ros',
   },
   {
     id: '205',
@@ -237,7 +261,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/001_luc.jpg',
+    bgImage: '001_luc',
   },
   {
     id: '206',
@@ -249,7 +273,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/022_tha.jpg',
+    bgImage: '022_tha',
   },
   {
     id: '207',
@@ -261,7 +285,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/022_faw.jpg',
+    bgImage: '022_faw',
   },
   {
     id: '208',
@@ -273,7 +297,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/014_row.jpg',
+    bgImage: '014_row',
   },
   {
     id: '209',
@@ -285,7 +309,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/001_hen.jpg',
+    bgImage: '001_hen',
   },
   {
     id: '210',
@@ -297,7 +321,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/002_gwy.jpg',
+    bgImage: '002_gwy',
   },
   {
     id: '211',
@@ -309,7 +333,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/000_rig.jpg',
+    bgImage: '000_rig',
   },
   {
     id: '212',
@@ -321,7 +345,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/022_cec.jpg',
+    bgImage: '022_cec',
   },
   {
     id: '213',
@@ -333,7 +357,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/022_osc.jpg',
+    bgImage: '022_osc',
   },
   {
     id: '214',
@@ -345,7 +369,31 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/013_elu.jpg',
+    bgImage: '013_elu',
+  },
+  {
+    id: '215',
+    name: 'peggy',
+    faction: 'lightbearer',
+    base: 'inteligence',
+    class: 'support',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    bgImage: '014_peg',
+  },
+  {
+    id: '216',
+    name: 'walker',
+    faction: 'lightbearer',
+    base: 'strength',
+    class: 'warrior',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    bgImage: '000_wal',
   },
   {
     id: '301',
@@ -357,7 +405,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/101_bru.jpg',
+    bgImage: '101_bru',
   },
   {
     id: '302',
@@ -369,7 +417,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/100_kha.jpg',
+    bgImage: '100_kha',
   },
   {
     id: '303',
@@ -381,7 +429,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/122_vur.jpg',
+    bgImage: '122_vur',
   },
   {
     id: '304',
@@ -393,7 +441,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/114_num.jpg',
+    bgImage: '114_num',
   },
   {
     id: '305',
@@ -405,7 +453,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/100_war.jpg',
+    bgImage: '100_war',
   },
   {
     id: '306',
@@ -417,7 +465,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/101_skr.jpg',
+    bgImage: '101_skr',
   },
   {
     id: '307',
@@ -429,7 +477,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/113_saf.jpg',
+    bgImage: '113_saf',
   },
   {
     id: '308',
@@ -441,7 +489,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/113_sat.jpg',
+    bgImage: '113_sat',
   },
   {
     id: '309',
@@ -453,7 +501,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/120_ant.jpg',
+    bgImage: '120_ant',
   },
   {
     id: '310',
@@ -465,7 +513,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/122_tid.jpg',
+    bgImage: '122_tid',
   },
   {
     id: '311',
@@ -477,7 +525,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/101_skr.jpg',
+    bgImage: '101_skr',
   },
   {
     id: '312',
@@ -489,7 +537,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/100_ano.jpg',
+    bgImage: '100_ano',
   },
   {
     id: '313',
@@ -501,7 +549,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/122_dre.jpg',
+    bgImage: '122_dre',
   },
   {
     id: '314',
@@ -513,7 +561,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/122_kre.jpg',
+    bgImage: '122_kre',
   },
   {
     id: '401',
@@ -525,7 +573,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/214_nem.jpg',
+    bgImage: '214_nem',
   },
   {
     id: '402',
@@ -537,7 +585,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/222_kaz.jpg',
+    bgImage: '222_kaz',
   },
   {
     id: '403',
@@ -549,7 +597,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/222_lyc.jpg',
+    bgImage: '222_lyc',
   },
   {
     id: '404',
@@ -561,7 +609,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/201_ulm.jpg',
+    bgImage: '201_ulm',
   },
   {
     id: '405',
@@ -573,7 +621,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/201_gor.jpg',
+    bgImage: '201_gor',
   },
   {
     id: '406',
@@ -585,7 +633,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/222_eir.jpg',
+    bgImage: '222_eir',
   },
   {
     id: '407',
@@ -597,7 +645,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/214_tas.jpg',
+    bgImage: '214_tas',
   },
   {
     id: '408',
@@ -609,7 +657,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/200_sei.jpg',
+    bgImage: '200_sei',
   },
   {
     id: '409',
@@ -621,7 +669,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/213_lor.jpg',
+    bgImage: '213_lor',
   },
   {
     id: '410',
@@ -633,7 +681,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/213_sol.jpg',
+    bgImage: '213_sol',
   },
   {
     id: '411',
@@ -645,7 +693,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/200_sau.jpg',
+    bgImage: '200_sau',
   },
   {
     id: '412',
@@ -657,7 +705,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/213_pip.jpg',
+    bgImage: '213_pip',
   },
   {
     id: '413',
@@ -669,7 +717,19 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/222_res.jpg',
+    bgImage: '222_res',
+  },
+  {
+    id: '414',
+    name: 'raku',
+    faction: 'wilder',
+    base: 'agility',
+    class: 'ranger',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    bgImage: '222_rak',
   },
   {
     id: '501',
@@ -681,7 +741,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/301_gre.jpg',
+    bgImage: '301_gre',
   },
   {
     id: '502',
@@ -693,7 +753,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/313_she.jpg',
+    bgImage: '313_she',
   },
   {
     id: '503',
@@ -705,7 +765,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/313_ode.jpg',
+    bgImage: '313_ode',
   },
   {
     id: '504',
@@ -717,7 +777,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/313_isa.jpg',
+    bgImage: '313_isa',
   },
   {
     id: '505',
@@ -729,7 +789,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/322_fer.jpg',
+    bgImage: '322_fer',
   },
   {
     id: '506',
@@ -741,7 +801,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/301_tho.jpg',
+    bgImage: '301_tho',
   },
   {
     id: '507',
@@ -753,7 +813,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/322_kel.jpg',
+    bgImage: '322_kel',
   },
   {
     id: '508',
@@ -765,7 +825,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/300_nar.jpg',
+    bgImage: '300_nar',
   },
   {
     id: '509',
@@ -777,7 +837,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/320_bad.jpg',
+    bgImage: '320_bad',
   },
   {
     id: '510',
@@ -789,7 +849,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/300_izo.jpg',
+    bgImage: '300_izo',
   },
   {
     id: '511',
@@ -801,7 +861,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/301_tor.jpg',
+    bgImage: '301_tor',
   },
   {
     id: '512',
@@ -813,7 +873,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/301_dai.jpg',
+    bgImage: '301_dai',
   },
   {
     id: '513',
@@ -825,7 +885,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/322_the.jpg',
+    bgImage: '322_the',
   },
   {
     id: '514',
@@ -837,7 +897,19 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/314_sil.jpg',
+    bgImage: '314_sil',
+  },
+  {
+    id: '515',
+    name: 'desira',
+    faction: 'graveborn',
+    base: 'inteligence',
+    class: 'support',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    bgImage: '314_des',
   },
   {
     id: '601',
@@ -849,7 +921,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/601_art.jpg',
+    bgImage: '601_art',
   },
   {
     id: '602',
@@ -861,7 +933,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/622_nak.jpg',
+    bgImage: '622_nak',
   },
   {
     id: '603',
@@ -873,7 +945,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/620_uky.jpg',
+    bgImage: '620_uky',
   },
   {
     id: '604',
@@ -885,7 +957,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/504_ezi.jpg',
+    bgImage: '504_ezi',
   },
   {
     id: '605',
@@ -897,7 +969,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/613_ain.jpg',
+    bgImage: '613_ain',
   },
   {
     id: '606',
@@ -909,7 +981,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/601_alb.jpg',
+    bgImage: '601_alb',
   },
   {
     id: '607',
@@ -921,7 +993,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/622_jok.jpg',
+    bgImage: '622_jok',
   },
   {
     id: '608',
@@ -933,6 +1005,18 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: 'img/600_que.jpg',
+    bgImage: '600_que',
+  },
+  {
+    id: '608',
+    name: 'prince Of Persia',
+    faction: 'dimensional',
+    base: 'strength',
+    class: 'warrior',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    bgImage: '622_pri',
   },
 ];

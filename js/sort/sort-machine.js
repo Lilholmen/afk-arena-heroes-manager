@@ -1,9 +1,9 @@
-import { userHeroes, heroesGrid } from '../app.js';
+import { mergedHeroes, heroesGrid } from '../app.js';
 
 export function sortHeroesGrid(params, key) {
   const heroesContainer = document.querySelector('.heroes');
 
-  const heroesSorted = [...userHeroes].sort((a, b) => {
+  const heroesSorted = [...mergedHeroes].sort((a, b) => {
     if (key === 'ascention') {
       //если сортировка происходит по вознесению то...
       if (a.ascention === 'ascended' && b.ascention === 'ascended') {
@@ -26,8 +26,8 @@ export function sortHeroesGrid(params, key) {
   itemsArray
     .sort(
       (nodeA, nodeB) =>
-        heroesSorted.indexOf(userHeroes[nodeA.id]) -
-        heroesSorted.indexOf(userHeroes[nodeB.id])
+        heroesSorted.indexOf(mergedHeroes[nodeA.id]) -
+        heroesSorted.indexOf(mergedHeroes[nodeB.id])
     )
     .forEach((node) => heroesContainer.appendChild(node));
 }

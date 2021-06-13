@@ -1,6 +1,6 @@
 import {
   heroesParams,
-  userHeroes,
+  mergedHeroes,
   heroesGrid,
   changeButtonsActivity,
 } from '../app.js';
@@ -37,10 +37,10 @@ export function filterFunction(filterButtonId) {
     changeButtonsActivity(params[0], params[1]);
   }
 
-  userHeroes.forEach((hero) => {
+  mergedHeroes.forEach((hero) => {
     if (useFilterMask(hero)) {
-      heroesGrid[hero.sessionId].classList.add('hero--hidden');
-    } else heroesGrid[hero.sessionId].classList.remove('hero--hidden');
+      heroesGrid[hero.pageId].classList.add('hero--hidden');
+    } else heroesGrid[hero.pageId].classList.remove('hero--hidden');
   });
 }
 

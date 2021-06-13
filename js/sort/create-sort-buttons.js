@@ -12,10 +12,12 @@ const sortParams = {
   furniture: furnitures,
 };
 
+const propertys = ['faction', 'base', 'class', 'ascention', 'si', 'furniture'];
+
 createSortButtons();
 
-export function createSortButtons() {
-  const sortButtonsArea = document.querySelector('.sort__btn-container');
+export function createSortButtons1() {
+  const sortButtonsArea = document.querySelector('.sort__inactive-sort');
 
   for (let param in sortParams) {
     const sortBtn = document.createElement('button');
@@ -28,4 +30,21 @@ export function createSortButtons() {
 
     sortButtonsArea.append(sortBtn);
   }
+}
+
+export function createSortButtons() {
+  const sortButtonsArea = document.querySelector('.sort__inactive-sort');
+
+  propertys.forEach((prop) => {
+    const sortBtn = document.createElement('button');
+
+    sortBtn.classList.add('sort_btn');
+    sortBtn.textContent = prop;
+
+    sortBtn.addEventListener('click', () => {
+      sortHeroesGrid(prop);
+    });
+
+    sortButtonsArea.append(sortBtn);
+  });
 }

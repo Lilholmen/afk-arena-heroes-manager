@@ -8,11 +8,14 @@
 .filter__btn {
   min-height: 30px;
   min-width: 30px;
+  border-radius: 15px;
   margin-right: 5px;
+  background-color: rgb(0, 0, 0, 0);
   outline: unset;
+  background-position: center;
+  background-size: 30px;
 }
 
 .filter__btn--active {
   border: rgb(214, 193, 0) solid 2px;
-  border-radius: 15px;
 }

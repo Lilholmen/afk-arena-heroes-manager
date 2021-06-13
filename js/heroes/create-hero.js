@@ -3,14 +3,14 @@ import { card, heroesParams } from '../app.js';
 export function createHero(heroStats) {
   const hero = document.createElement('div');
 
-  //добавляем классы и id
+  //добавляем классы и id для DOM елемента
   hero.classList.add('hero');
   hero.classList.add(heroStats.faction);
   hero.classList.add(heroStats.ascention);
   hero.id = heroStats.pageId;
 
   //парметры для иконки героя
-  hero.style.backgroundImage = 'url("' + heroStats.bgImage + '")';
+  hero.style.backgroundImage = 'url("img/' + heroStats.bgImage + '.jpg")';
   hero.style.backgroundSize = '64px';
 
   //вешаем событие по нажатию

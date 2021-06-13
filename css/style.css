@@ -12,14 +12,16 @@
 }
 
 .settings__container {
-  height: 100vh;
+  max-height: 100%;
+  min-height: 100vh;
   min-width: 300px;
   padding: 5px;
   background: #55331a;
 }
 
 .heroes__container {
-  height: 100vh;
+  max-height: 100%;
+  min-height: 100vh;
   width: 100%;
   background: #ecd19a;
 }
