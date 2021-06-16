@@ -5,7 +5,7 @@
   background: #332011;
 }
 
-.filter__btn {
+.filters__btn {
   min-height: 30px;
   min-width: 30px;
   border-radius: 15px;
@@ -16,6 +16,10 @@
   background-size: 30px;
 }
 
-.filter__btn--active {
+.filters__btn--all {
+  background-image: url('../img/all.png');
+}
+
+.filters__btn--active {
   border: rgb(214, 193, 0) solid 2px;
 }

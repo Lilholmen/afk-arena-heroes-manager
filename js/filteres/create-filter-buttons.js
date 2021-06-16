@@ -8,18 +8,15 @@ function createFilterButtons() {
   document.querySelectorAll('.btn-container').forEach((filterBlock, index) => {
     const filterType = filterBlock.classList[1].slice(15);
 
-    const btnAll = document.createElement('button');
-    btnAll.className = `filter__btn filter__btn--active filter__btn--${filterType}`;
-    btnAll.id = filterType + '_all';
-    btnAll.style.backgroundImage = 'url("img/all.png")';
-    btnAll.addEventListener('click', () => {
-      filterFunction(btnAll.id.slice(0, -2), 'all');
-    });
-    filterBlock.append(btnAll);
+    document
+      .querySelector('.filters__btn--all')
+      .addEventListener('click', () => {
+        filterFunction(filterType + '_a', 'all');
+      });
 
     for (let i = 0; i < filters[index]; i++) {
       const filterBtn = document.createElement('button');
-      filterBtn.className = `filter__btn filter__btn--${filterType}`;
+      filterBtn.className = `filters__btn filters__btn--${filterType}`;
       filterBtn.id = filterType + '_' + i;
       filterBtn.style.backgroundImage = 'url("img/' + filterBtn.id + '.png")';
       filterBtn.addEventListener('click', () =>
