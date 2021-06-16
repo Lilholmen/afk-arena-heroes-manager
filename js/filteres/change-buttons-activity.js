@@ -17,7 +17,7 @@ export function changeButtonsActivity(
     targetBtns[targetFilterId + 1].classList.remove('filters__btn--active');
     if (modifier.length === 0) {
       document
-        .querySelector(`#${targetFilterType}_all`)
+        .querySelector(`#${targetFilterType}_a`)
         .classList.add('filters__btn--active');
     }
     return;

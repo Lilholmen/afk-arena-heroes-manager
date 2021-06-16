@@ -14,16 +14,14 @@ const sortParams = {
 
 const propertys = ['faction', 'base', 'class', 'ascention', 'si', 'furniture'];
 
-createSortButtons();
-
-export function createSortButtons1() {
-  const sortButtonsArea = document.querySelector('.sort__inactive-sort');
+export function createSortButtons() {
+  const sortButtonsArea = document.querySelector('.sort__active-sort');
 
   for (let param in sortParams) {
     const sortBtn = document.createElement('button');
 
     sortBtn.className = 'sort_btn';
-    sortBtn.textContent = 'by ' + param;
+    sortBtn.textContent = param;
     sortBtn.addEventListener('click', () => {
       sortHeroesGrid(sortParams[param], param);
     });
@@ -32,7 +30,7 @@ export function createSortButtons1() {
   }
 }
 
-export function createSortButtons() {
+export function createSortButtons1() {
   const sortButtonsArea = document.querySelector('.sort__inactive-sort');
 
   propertys.forEach((prop) => {
