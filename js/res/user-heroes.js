@@ -50,7 +50,7 @@ export const userHeroes = [
   },
   {
     id: '103',
-    ascention: 'eliteP',
+    ascention: 'legendary',
   },
   {
     id: '104',
@@ -62,7 +62,8 @@ export const userHeroes = [
   },
   {
     id: '106',
-    ascention: 'legendary',
+    ascention: 'mythicP',
+    si: 30,
   },
   {
     id: '107',
@@ -103,6 +104,7 @@ export const userHeroes = [
   {
     id: '206',
     ascention: 'mythicP',
+    si: 0,
   },
   {
     id: '207',
@@ -161,7 +163,7 @@ export const userHeroes = [
   },
   {
     id: '303',
-    ascention: 'eliteP',
+    ascention: 'none',
   },
   {
     id: '304',
@@ -185,7 +187,7 @@ export const userHeroes = [
   },
   {
     id: '308',
-    ascention: 'eliteP',
+    ascention: 'legendary',
   },
   {
     id: '309',
@@ -203,7 +205,7 @@ export const userHeroes = [
   },
   {
     id: '312',
-    ascention: 'legendaryP',
+    ascention: 'eliteP',
   },
   {
     id: '313',
@@ -211,7 +213,7 @@ export const userHeroes = [
   },
   {
     id: '314',
-    ascention: 'legendary',
+    ascention: 'mythicP',
   },
   {
     id: '401',
@@ -219,7 +221,7 @@ export const userHeroes = [
   },
   {
     id: '402',
-    ascention: 'mythicP',
+    ascention: 'ascended',
   },
   {
     id: '403',
@@ -251,11 +253,12 @@ export const userHeroes = [
   {
     id: '409',
     ascention: 'ascended',
+    stars: 1,
   },
   {
     id: '410',
     ascention: 'ascended',
-    stars: 4,
+    stars: 5,
   },
   {
     id: '411',
@@ -268,7 +271,7 @@ export const userHeroes = [
   },
   {
     id: '413',
-    ascention: 'elite',
+    ascention: 'legendary',
   },
   {
     id: '414',
@@ -286,7 +289,7 @@ export const userHeroes = [
   },
   {
     id: '503',
-    ascention: 'mythicP',
+    ascention: 'ascended',
   },
   {
     id: '504',
@@ -295,7 +298,7 @@ export const userHeroes = [
   {
     id: '505',
     ascention: 'ascended',
-    stars: 2,
+    stars: 3,
   },
   {
     id: '506',
@@ -318,10 +321,11 @@ export const userHeroes = [
   {
     id: '510',
     ascention: 'ascended',
+    stars: 1,
   },
   {
     id: '511',
-    ascention: 'legendaryP',
+    ascention: 'none',
   },
   {
     id: '512',
@@ -334,7 +338,7 @@ export const userHeroes = [
   },
   {
     id: '514',
-    ascention: 'legendary',
+    ascention: 'mythicP',
   },
   {
     id: '514',
