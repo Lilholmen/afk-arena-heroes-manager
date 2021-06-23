@@ -16,13 +16,7 @@ export function createHero(heroStats) {
   //вешаем событие по нажатию
   hero.addEventListener('click', (event) => card(event));
 
-  //добавляем иконку класса как потомка
-  const factionIcon = document.createElement('img');
-  factionIcon.src = `img/faction_${heroesParams.factions.indexOf(
-    heroStats.faction
-  )}.png`;
-  factionIcon.classList.add('faction-icon');
-  hero.appendChild(factionIcon);
+  addFactionIcon(hero, heroStats);
 
   //еслиу героя есть звезды то добавлем как потомков
   if (heroStats.stars) {
@@ -45,4 +39,44 @@ function addStars(hero, starsCount) {
   }
 
   hero.appendChild(star);
+}
+
+function addFactionIcon(hero, heroStats) {
+  //добавляем иконку класса как потомка
+  const factionIcon = document.createElement('img');
+  factionIcon.src = `img/faction_${heroesParams.factions.indexOf(
+    heroStats.faction
+  )}.png`;
+  factionIcon.classList.add('faction-icon');
+
+  //если есть сигнатурка то добавляем кое-что:)
+  if (heroStats.si) {
+    const siSwitch =
+      heroStats.si > 29
+        ? 30
+        : heroStats.si > 19
+        ? 20
+        : heroStats.si > 9
+        ? 10
+        : 0;
+    factionIcon.classList.add('si' + siSwitch);
+  }
+
+  hero.appendChild(factionIcon);
+
+  //это переделать!!!!
+  if (heroStats.furniture > 2) {
+    const furSwitch = heroStats.furniture > 8 ? 9 : 3;
+    const furnitureGem = document.createElement('img');
+    furnitureGem.src = 'img/fur.png';
+    furnitureGem.classList.add('furniture' + furSwitch);
+
+    hero.appendChild(furnitureGem);
+    if (furSwitch === 9) {
+      const furnitureGem = document.createElement('img');
+      furnitureGem.src = 'img/fur.png';
+      furnitureGem.classList.add('furniture' + furSwitch);
+      hero.appendChild(furnitureGem);
+    }
+  }
 }

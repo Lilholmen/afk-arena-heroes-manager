@@ -21,7 +21,7 @@ export const userHeroes = [
     id: '005',
     ascention: 'ascended',
     si: 30,
-    furniture: 5,
+    furniture: 9,
   },
   {
     id: '006',
