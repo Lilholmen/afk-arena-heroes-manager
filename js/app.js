@@ -10,9 +10,8 @@ export { card } from './card.js';
 export { sortHeroesGrid } from './sort/sort-machine.js';
 export { createHero } from './heroes/create-hero.js';
 import { createFilterButtons } from './filteres/create-filter-buttons.js';
-import { createSortButtons } from './sort/create-sort-buttons.js';
+//import { createSortButtons } from './sort/create-sort-buttons.js';
 import { addSortOnButtons } from './sort/sort-function.js';
 
 createFilterButtons();
-createSortButtons();
 addSortOnButtons();
