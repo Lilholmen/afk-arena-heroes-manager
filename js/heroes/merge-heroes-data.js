@@ -19,7 +19,7 @@ userHeroes.forEach((hero, index) => mergeHero(hero, index));
 function mergeHero(hero, n) {
   //проверям есть ли данный герой у пользователя
   if (hero.ascention === 'none') {
-    return;
+    //return; врменно отключаем
   }
   //в пустой объект записываем !ВНАЧАЛЕ баззовые потом пользовательское
   const merged = {};

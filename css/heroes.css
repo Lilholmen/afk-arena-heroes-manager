@@ -89,6 +89,10 @@
   border-color: rgb(179, 0, 179);
 }
 
+.none {
+  border-color: rgb(143, 98, 1);
+}
+
 .eliteP,
 .legendaryP,
 .mythicP {

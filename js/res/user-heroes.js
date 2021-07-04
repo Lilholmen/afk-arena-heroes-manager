@@ -12,6 +12,7 @@ export const userHeroes = [
   {
     id: '003',
     ascention: 'mythic',
+    si: 20,
   },
   {
     id: '004',
@@ -33,7 +34,7 @@ export const userHeroes = [
   },
   {
     id: '008',
-    ascention: 'elite',
+    ascention: 'legendary',
   },
   {
     id: '009',
@@ -42,7 +43,8 @@ export const userHeroes = [
   {
     id: '101',
     ascention: 'ascended',
-    si: 20,
+    si: 30,
+    furniture: 3,
   },
   {
     id: '102',
@@ -62,7 +64,7 @@ export const userHeroes = [
   },
   {
     id: '106',
-    ascention: 'mythicP',
+    ascention: 'ascended',
     si: 30,
   },
   {
@@ -76,30 +78,35 @@ export const userHeroes = [
   {
     id: '201',
     ascention: 'ascended',
-    si: 10,
-    furniture: 4,
     stars: 4,
+    si: 20,
+    furniture: 5,
   },
   {
     id: '202',
     ascention: 'ascended',
     stars: 5,
+    si: 20,
+    furniture: 3,
   },
   {
     id: '203',
-    ascention: 'mythic',
+    ascention: 'mythicP',
+    si: 0,
   },
   {
     id: '204',
     ascention: 'ascended',
     stars: 5,
+    si: 20,
+    furniture: 6,
   },
   {
     id: '205',
     ascention: 'ascended',
+    stars: 3,
     si: 20,
     furniture: 4,
-    stars: 3,
   },
   {
     id: '206',
@@ -110,34 +117,42 @@ export const userHeroes = [
     id: '207',
     ascention: 'ascended',
     stars: 4,
+    si: 20,
+    furniture: 5,
   },
   {
     id: '208',
     ascention: 'ascended',
+    stars: 5,
     si: 30,
     furniture: 9,
-    stars: 5,
   },
   {
     id: '209',
     ascention: 'mythicP',
+    si: 0,
   },
   {
     id: '210',
     ascention: 'ascended',
-    stars: 2,
+    stars: 4,
+    si: 20,
+    furniture: 4,
   },
   {
     id: '211',
-    ascention: 'legendaryP',
+    ascention: 'mythic',
+    si: 0,
   },
   {
     id: '212',
     ascention: 'mythicP',
+    si: 10,
   },
   {
     id: '213',
     ascention: 'ascended',
+    si: 0,
   },
   {
     id: '214',
@@ -155,11 +170,14 @@ export const userHeroes = [
     id: '301',
     ascention: 'ascended',
     stars: 5,
+    si: 20,
+    furniture: 3,
   },
   {
     id: '302',
     ascention: 'ascended',
     stars: 3,
+    si: 10,
   },
   {
     id: '303',
@@ -169,21 +187,26 @@ export const userHeroes = [
     id: '304',
     ascention: 'ascended',
     stars: 1,
+    si: 10,
   },
   {
     id: '305',
     ascention: 'ascended',
     stars: 1,
+    si: 10,
   },
   {
     id: '306',
     ascention: 'ascended',
     stars: 1,
+    si: 10,
   },
   {
     id: '307',
     ascention: 'ascended',
     stars: 2,
+    si: 20,
+    furniture: 3,
   },
   {
     id: '308',
@@ -192,16 +215,22 @@ export const userHeroes = [
   {
     id: '309',
     ascention: 'ascended',
+    si: 10,
+    furniture: 1,
   },
   {
     id: '310',
     ascention: 'ascended',
     stars: 5,
+    si: 30,
+    furniture: 6,
   },
   {
     id: '311',
     ascention: 'ascended',
-    stars: 1,
+    stars: 3,
+    si: 10,
+    furniture: 2,
   },
   {
     id: '312',
@@ -209,11 +238,12 @@ export const userHeroes = [
   },
   {
     id: '313',
-    ascention: 'elite',
+    ascention: 'eliteP',
   },
   {
     id: '314',
     ascention: 'mythicP',
+    si: 10,
   },
   {
     id: '401',
@@ -222,11 +252,14 @@ export const userHeroes = [
   {
     id: '402',
     ascention: 'ascended',
+    si: 0,
   },
   {
     id: '403',
     ascention: 'ascended',
     stars: 2,
+    si: 20,
+    furniture: 4,
   },
   {
     id: '404',
@@ -240,11 +273,15 @@ export const userHeroes = [
     id: '406',
     ascention: 'ascended',
     stars: 5,
+    si: 30,
+    furniture: 9,
   },
   {
     id: '407',
     ascention: 'ascended',
     stars: 5,
+    si: 20,
+    furniture: 9,
   },
   {
     id: '408',
@@ -254,20 +291,25 @@ export const userHeroes = [
     id: '409',
     ascention: 'ascended',
     stars: 1,
+    si: 10,
   },
   {
     id: '410',
     ascention: 'ascended',
     stars: 5,
+    si: 10,
   },
   {
     id: '411',
     ascention: 'ascended',
     stars: 3,
+    si: 30,
+    furniture: 4,
   },
   {
     id: '412',
     ascention: 'mythicP',
+    si: 10,
   },
   {
     id: '413',
@@ -276,52 +318,66 @@ export const userHeroes = [
   {
     id: '414',
     ascention: 'mythicP',
+    si: 10,
   },
   {
     id: '501',
     ascention: 'ascended',
     stars: 3,
+    si: 20,
+    furniture: 9,
   },
   {
     id: '502',
     ascention: 'ascended',
     stars: 5,
+    si: 20,
+    furniture: 9,
   },
   {
     id: '503',
     ascention: 'ascended',
+    si: 10,
   },
   {
     id: '504',
-    ascention: 'elite',
+    ascention: 'eliteP',
   },
   {
     id: '505',
     ascention: 'ascended',
     stars: 3,
+    si: 30,
+    furniture: 9,
   },
   {
     id: '506',
     ascention: 'ascended',
     stars: 5,
+    si: 30,
+    furniture: 4,
   },
   {
     id: '507',
     ascention: 'ascended',
     stars: 1,
+    si: 10,
   },
   {
     id: '508',
     ascention: 'ascended',
+    si: 10,
   },
   {
     id: '509',
-    ascention: 'elite',
+    ascention: 'eliteP',
   },
   {
     id: '510',
     ascention: 'ascended',
     stars: 1,
+    si: 20,
+    furniture: 9,
   },
   {
     id: '511',
@@ -331,6 +387,8 @@ export const userHeroes = [
     id: '512',
     ascention: 'ascended',
     stars: 1,
+    si: 30,
+    furniture: 3,
   },
   {
     id: '513',
@@ -339,15 +397,18 @@ export const userHeroes = [
   {
     id: '514',
     ascention: 'mythicP',
+    si: 20,
   },
   {
     id: '515',
-    ascention: 'eliteP',
+    ascention: 'legendary',
   },
   {
     id: '601',
     ascention: 'ascended',
     stars: 5,
+    si: 30,
+    furniture: 4,
   },
   {
     id: '602',
@@ -361,24 +422,39 @@ export const userHeroes = [
     id: '604',
     ascention: 'ascended',
     stars: 5,
+    si: 20,
+    furniture: 1,
   },
   {
     id: '605',
     ascention: 'ascended',
     stars: 5,
+    si: 30,
+    furniture: 9,
   },
   {
     id: '606',
     ascention: 'ascended',
     stars: 5,
+    si: 30,
+    furniture: 3,
   },
   {
     id: '607',
     ascention: 'ascended',
     stars: 4,
+    si: 20,
   },
   {
     id: '608',
-    ascention: 'none',
+    ascention: 'ascended',
+    stars: 5,
+    si: 10,
+  },
+  {
+    id: '609',
+    ascention: 'ascended',
+    stars: 5,
+    si: 10,
   },
 ];

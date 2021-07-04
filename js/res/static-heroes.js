@@ -1008,7 +1008,7 @@ export const staticHeroes = [
     bgImage: '600_que',
   },
   {
-    id: '608',
+    id: '609',
     name: 'prince Of Persia',
     faction: 'dimensional',
     base: 'strength',
