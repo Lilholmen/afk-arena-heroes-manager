@@ -7,9 +7,8 @@ export const heroesGrid = document.querySelectorAll('.hero');
 function createHeroes() {
   const heroArea = document.getElementById('heroes-section');
 
-  mergedHeroes.map((hero, index) => {
+  mergedHeroes.map((hero) => {
     //добавляем на страницу всех героев пользователя
-    hero.pageId = index;
-    heroArea.append(createHero(hero));
+    heroArea.appendChild(createHero(hero));
   });
 }

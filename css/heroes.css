@@ -47,21 +47,24 @@
   border-color: white;
 }
 
-.furniture3,
-.furniture9 {
+.hero__furniture-section {
   position: absolute;
   margin-top: 20px;
-  max-height: 15px;
 }
 
-.stars-block {
+.furniture-section__gem {
+  max-height: 15px;
+  margin-right: -6px;
+}
+
+.hero__star-section {
   margin-top: 46px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0 0 10px 0;
 }
 
-.stars-block__star {
+.star-section__star {
   height: 15px;
   width: 15px;
   margin: 0 -2px -2px -2px;

@@ -12,20 +12,22 @@ export function addSortOnButtons() {
 
 function btnClickEvent(btn) {
   manageSortParams(btn, activeSortParams);
-  const sortedHeroes = sortHeroesDatabase([...mergedHeroes], activeSortParams);
 
   const heroesContainer = document.querySelector('.heroes');
-
+  const sortedHeroes = sortHeroesDatabase([...mergedHeroes], activeSortParams);
   const itemsArray = [];
 
   for (let i = 0; i < heroesGrid.length; i++) {
     itemsArray.push(heroesContainer.removeChild(heroesGrid[i]));
   }
+
   itemsArray
     .sort(
       (nodeA, nodeB) =>
-        sortedHeroes.indexOf(mergedHeroes[nodeA.id]) -
-        sortedHeroes.indexOf(mergedHeroes[nodeB.id])
+        sortedHeroes.indexOf(
+          sortedHeroes.find((item) => item.id === nodeA.id)
+        ) -
+        sortedHeroes.indexOf(sortedHeroes.find((item) => item.id === nodeB.id))
     )
     .forEach((node) => heroesContainer.appendChild(node));
 }
@@ -37,14 +39,12 @@ function sortHeroesDatabase(heroesArray, sortMask) {
     )
   );
 
-  logNameOnly(heroesArray);
-
   return heroesArray;
 }
 
-function logNameOnly(arr) {
-  console.log(arr.reduce((res, item) => res + ', ' + item.name, ''));
-}
+/* function logNameOnly(arr) {
+  console.log(arr.reduce((res, item) => res + item.name + ', ', ''));
+} */
 
 function manageSortParams(btn, activeSorts) {
   const activeSection = document.querySelector('.sort__active-sort');

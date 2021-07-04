@@ -38,9 +38,12 @@ export function filterFunction(filterButtonId) {
   }
 
   mergedHeroes.forEach((hero) => {
+    heroesGrid.find = [].find;
+    const heroNode = heroesGrid.find((item) => item.id === hero.id);
+
     if (useFilterMask(hero)) {
-      heroesGrid[hero.pageId].classList.add('hero--hidden');
-    } else heroesGrid[hero.pageId].classList.remove('hero--hidden');
+      heroNode.classList.add('hero--hidden');
+    } else heroNode.classList.remove('hero--hidden');
   });
 }
 

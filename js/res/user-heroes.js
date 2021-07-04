@@ -341,7 +341,7 @@ export const userHeroes = [
     ascention: 'mythicP',
   },
   {
-    id: '514',
+    id: '515',
     ascention: 'eliteP',
   },
   {

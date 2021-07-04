@@ -525,7 +525,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: '101_skr',
+    bgImage: '113_skr',
   },
   {
     id: '312',
@@ -957,7 +957,7 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
-    bgImage: '504_ezi',
+    bgImage: '622_ezi',
   },
   {
     id: '605',

@@ -7,16 +7,22 @@ export function createHero(heroStats) {
   hero.classList.add('hero');
   hero.classList.add(heroStats.faction);
   hero.classList.add(heroStats.ascention);
-  hero.id = heroStats.pageId;
+  hero.id = heroStats.id;
 
   //парметры для иконки героя
   hero.style.backgroundImage = 'url("img/' + heroStats.bgImage + '.jpg")';
   hero.style.backgroundSize = '64px';
 
   //вешаем событие по нажатию
-  hero.addEventListener('click', (event) => card(event));
+  hero.addEventListener('click', card);
 
+  //добавляем фракционную иконку и там же сигнатуру(временно!!)
   addFactionIcon(hero, heroStats);
+
+  //если есть фурнитура то добавляем гемы
+  if (heroStats.furniture > 2) {
+    addFurnitureGems(hero, heroStats.furniture == 9);
+  }
 
   //еслиу героя есть звезды то добавлем как потомков
   if (heroStats.stars) {
@@ -24,21 +30,6 @@ export function createHero(heroStats) {
   }
 
   return hero;
-}
-
-function addStars(hero, starsCount) {
-  const star = document.createElement('div');
-  star.className = 'stars-block';
-
-  for (let starN = 1; starN <= starsCount; starN++) {
-    const starImg = document.createElement('img');
-    starImg.src = 'img/ascention_star.png';
-    starImg.className = 'stars-block__star';
-
-    star.appendChild(starImg);
-  }
-
-  hero.appendChild(star);
 }
 
 function addFactionIcon(hero, heroStats) {
@@ -49,7 +40,7 @@ function addFactionIcon(hero, heroStats) {
   )}.png`;
   factionIcon.classList.add('faction-icon');
 
-  //если есть сигнатурка то добавляем кое-что:)
+  //если есть сигнатурка то добавляем класс
   if (heroStats.si) {
     const siSwitch =
       heroStats.si > 29
@@ -63,20 +54,35 @@ function addFactionIcon(hero, heroStats) {
   }
 
   hero.appendChild(factionIcon);
+}
 
-  //это переделать!!!!
-  if (heroStats.furniture > 2) {
-    const furSwitch = heroStats.furniture > 8 ? 9 : 3;
-    const furnitureGem = document.createElement('img');
-    furnitureGem.src = 'img/fur.png';
-    furnitureGem.classList.add('furniture' + furSwitch);
+function addFurnitureGems(hero, isFull) {
+  const gemSection = document.createElement('div');
+  gemSection.classList.add('hero__furniture-section');
 
-    hero.appendChild(furnitureGem);
-    if (furSwitch === 9) {
-      const furnitureGem = document.createElement('img');
-      furnitureGem.src = 'img/fur.png';
-      furnitureGem.classList.add('furniture' + furSwitch);
-      hero.appendChild(furnitureGem);
-    }
+  let furnitureGem = document.createElement('img');
+  furnitureGem.src = 'img/fur.png';
+  furnitureGem.classList.add('furniture-section__gem');
+
+  furnitureGem = gemSection.appendChild(furnitureGem).cloneNode();
+  if (isFull) {
+    gemSection.appendChild(furnitureGem);
   }
+
+  hero.appendChild(gemSection);
+}
+
+function addStars(hero, starsCount) {
+  const starSection = document.createElement('div');
+  starSection.className = 'hero__star-section';
+
+  for (let starN = 1; starN <= starsCount; starN++) {
+    const starImg = document.createElement('img');
+    starImg.src = 'img/ascention_star.png';
+    starImg.className = 'star-section__star';
+
+    starSection.appendChild(starImg);
+  }
+
+  hero.appendChild(starSection);
 }
