@@ -41,7 +41,7 @@ function addFactionIcon(hero, heroStats) {
   factionIcon.classList.add('faction-icon');
 
   //если есть сигнатурка то добавляем класс
-  if (heroStats.si) {
+  if (heroStats.si !== null) {
     const siSwitch =
       heroStats.si > 29
         ? 30
