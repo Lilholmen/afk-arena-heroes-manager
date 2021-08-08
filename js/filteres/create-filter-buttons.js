@@ -1,7 +1,7 @@
 import { filterFunction } from '../app.js';
 
 export function createFilterButtons() {
-  const filters = [7, 3, 5, 7];
+  const filters = [7, 3, 5, 7, 5, 3];
 
   document.querySelectorAll('.btn-container').forEach((filterBlock, index) => {
     const filterType = filterBlock.classList[1].slice(15);
@@ -22,7 +22,7 @@ function createFilterButton(type, index) {
   if (index === 'a') {
     btn.classList.add('filters__btn--all', 'filters__btn--active');
   } else {
-    btn.style.backgroundImage = 'url("img/' + btn.id + '.png")';
+    btn.style.backgroundImage = 'url("img/params/' + btn.id + '.png")';
   }
 
   btn.addEventListener('click', () => filterFunction(btn.id));

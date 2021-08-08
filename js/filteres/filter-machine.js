@@ -5,13 +5,16 @@ import {
   changeButtonsActivity,
 } from '../app.js';
 
-const { factions, based, classes, ascentions } = heroesParams;
+const { factions, based, classes, ascentions, sigItems, furnitures } =
+  heroesParams;
 
 export const filterMask = {
   faction: [],
   base: [],
   class: [],
   ascention: [],
+  si: [],
+  furniture: [],
 };
 
 export function filterFunction(filterButtonId) {
@@ -70,6 +73,16 @@ function useFilterMask(hero) {
     filterMask.ascention.includes(ascentions.indexOf(hero.ascention))
   )
     successFilterCounter++;
+  if (
+    filterMask.si.length === 0 ||
+    filterMask.si.includes(sigItems.indexOf(hero.si))
+  )
+    successFilterCounter++;
+  if (
+    filterMask.furniture.length === 0 ||
+    filterMask.furniture.includes(furnitures.indexOf(hero.furniture))
+  )
+    successFilterCounter++;
 
-  return successFilterCounter < 4;
+  return successFilterCounter < 6;
 }

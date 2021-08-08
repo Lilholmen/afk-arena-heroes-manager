@@ -10,7 +10,8 @@ export function createHero(heroStats) {
   hero.id = heroStats.id;
 
   //парметры для иконки героя
-  hero.style.backgroundImage = 'url("img/' + heroStats.bgImage + '.jpg")';
+  hero.style.backgroundImage =
+    'url("img/heroes/' + heroStats.bgImage + '.jpg")';
   hero.style.backgroundSize = '64px';
 
   //вешаем событие по нажатию
@@ -35,7 +36,7 @@ export function createHero(heroStats) {
 function addFactionIcon(hero, heroStats) {
   //добавляем иконку класса как потомка
   const factionIcon = document.createElement('img');
-  factionIcon.src = `img/faction_${heroesParams.factions.indexOf(
+  factionIcon.src = `img/params/faction_${heroesParams.factions.indexOf(
     heroStats.faction
   )}.png`;
   factionIcon.classList.add('faction-icon');
@@ -61,7 +62,7 @@ function addFurnitureGems(hero, isFull) {
   gemSection.classList.add('hero__furniture-section');
 
   let furnitureGem = document.createElement('img');
-  furnitureGem.src = 'img/fur.png';
+  furnitureGem.src = 'img/params/fur.png';
   furnitureGem.classList.add('furniture-section__gem');
 
   furnitureGem = gemSection.appendChild(furnitureGem).cloneNode();
@@ -78,7 +79,7 @@ function addStars(hero, starsCount) {
 
   for (let starN = 1; starN <= starsCount; starN++) {
     const starImg = document.createElement('img');
-    starImg.src = 'img/ascention_star.png';
+    starImg.src = 'img/params/ascention_star.png';
     starImg.className = 'star-section__star';
 
     starSection.appendChild(starImg);
