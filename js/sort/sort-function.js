@@ -3,9 +3,24 @@ import { mergedHeroes, heroesGrid } from '../app.js';
 const activeSortParams = [];
 
 export function addSortOnButtons() {
-  document.querySelectorAll('.sort__btn').forEach((btn) => {
+  const sortButtons = document.querySelectorAll('.sort__btn');
+  const resetButton = document.querySelector('.sort__reset-btn');
+
+  sortButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
       btnClickEvent(btn);
+    });
+  });
+
+  resetButton.addEventListener('click', () => {
+    const inactiveSection = document.querySelector('.sort__inactive-sort');
+
+    activeSortParams.length = 0;
+
+    sortButtons.forEach((btn) => {
+      btn.classList.add('sort__btn--inactive');
+      btn.classList.remove('sort__btn--active');
+      inactiveSection.append(btn);
     });
   });
 }

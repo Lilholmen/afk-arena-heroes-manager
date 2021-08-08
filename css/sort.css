@@ -1,29 +1,66 @@
-.sort__btn-container {
+.sorts {
   margin-top: 30px;
 }
 
-.sort__active-sort {
+.sort__label-container {
   display: flex;
-  height: 30px;
-  margin-bottom: 5px;
-  border-radius: 15px;
-  background: #332011;
+  justify-content: space-around;
 }
 
-.sort__inactive-sort {
+.sort__label {
+  font-size: 25px;
+  color: rgb(255, 194, 102);
+}
+
+.sort__btn-container {
+  margin-top: 10px;
   display: flex;
-  height: 30px;
-  margin-bottom: 5px;
-  border-radius: 15px;
+  gap: 5px;
+}
+
+.btn-container--sort {
+  width: 50%;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
   background: #332011;
+  border-radius: 15px;
 }
 
 .sort__btn {
-  min-height: 30px;
-  min-width: 30px;
-  border-radius: 15px;
-  margin-right: 5px;
+  height: 40px;
   padding: 10px;
-  background-color: rgb(255, 193, 100);
   outline: unset;
+  border-top: solid hsl(36, 100%, 18%) 1px;
+}
+
+.sort__active-sort .sort__btn {
+  background-color: rgb(255, 194, 102);
+}
+
+.sort__inactive-sort .sort__btn {
+  background-color: hsl(36, 60%, 30%);
+  color: rgb(255, 194, 102);
+}
+
+.sort__btn:last-child {
+  border-radius: 0 0 15px 15px;
+}
+
+.sort__btn:first-child {
+  border-radius: 15px 15px 0 0;
+  border: none;
+}
+
+.sort__btn:only-child {
+  border-radius: 15px;
+  border: none;
+}
+
+.sort__reset-btn {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background-color: hsl(24, 100%, 60%);
+  border-radius: 15px;
 }

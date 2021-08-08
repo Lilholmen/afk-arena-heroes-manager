@@ -2,13 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
+  font-size: 0;
 }
 
 .hero {
-  min-height: 70px;
+  height: 70px;
   min-width: 70px;
   margin: 10px;
-  display: inline-block;
   border: purple solid 3px;
   border-radius: 20% 0;
 }
@@ -58,6 +58,7 @@
 }
 
 .hero__star-section {
+  height: 18px;
   margin-top: 46px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
@@ -67,7 +68,7 @@
 .star-section__star {
   height: 15px;
   width: 15px;
-  margin: 0 -2px -2px -2px;
+  margin: 2px -2px -2px -2px;
 }
 
 .ascended {
