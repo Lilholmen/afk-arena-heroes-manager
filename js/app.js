@@ -6,7 +6,7 @@ import './heroes/merge-heroes-data.js';
 export { filterMask, filterFunction } from './filteres/filter-machine.js';
 export { heroesGrid } from './heroes/create-heroes.js';
 export { changeButtonsActivity } from './filteres/change-buttons-activity.js';
-export { card } from './card.js';
+export { card } from './selected-hero.js';
 export { sortHeroesGrid } from './sort/sort-machine.js';
 export { createHero } from './heroes/create-hero.js';
 import { createFilterButtons } from './filteres/create-filter-buttons.js';

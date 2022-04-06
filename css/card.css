@@ -1,3 +1,79 @@
-.heroes__card {
+.selected-hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-align: center;
+
+  border: 1px black solid;
+}
+
+.selected-hero--none {
   display: none;
+}
+
+.selected-hero__name {
+  color: rgb(208, 228, 255);
+  font-size: 32px;
+
+  border: 1px black solid;
+}
+
+.selected-hero__ascention {
+  color: #ffffff;
+  font-size: 20px;
+
+  border: 1px black solid;
+}
+
+.selected-hero__stars {
+  border: 1px black solid;
+}
+
+.ascention__star {
+  height: 20px;
+}
+
+.selected-hero__furniture {
+  border: 1px black solid;
+}
+
+.furniture__mythic {
+  height: 20px;
+}
+
+.selected-hero__portrait {
+  height: 100px;
+  width: 100px;
+
+  border: 1px black solid;
+}
+
+.selected-hero__gear {
+  display: grid;
+}
+
+.selected-hero__static {
+  display: flex;
+  justify-content: space-around;
+}
+
+.selected-hero__faction {
+  height: 50px;
+  width: 50px;
+
+  border: 1px black solid;
+}
+
+.selected-hero__base {
+  height: 50px;
+  width: 50px;
+
+  border: 1px black solid;
+}
+
+.selected-hero__class {
+  height: 50px;
+  width: 50px;
+
+  border: 1px black solid;
 }
