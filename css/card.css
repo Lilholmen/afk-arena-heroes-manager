@@ -1,9 +1,10 @@
 .selected-hero {
   display: flex;
   flex-direction: column;
+  position: relative;
   margin-top: 20px;
   text-align: center;
-  width: 280px;
+  width: 300px;
 
   background-color: #7a5400;
 }
@@ -13,59 +14,70 @@
 }
 
 .selected-hero__static {
-  height: 100px;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.selected-hero__portrait {
+.static__attributes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 33.333333%;
+}
+
+.attributes__img-container {
+  display: flex;
+  justify-content: center;
+  width: 33.333333%;
+}
+
+.attributes__image {
+  height: 50px;
+  width: 50px;
+}
+
+.static__portrait-area {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.portrait-area__image {
   height: 100px;
   width: 100px;
+  border-radius: 10px;
 }
 
-.selected-hero__name {
-  height: 50px;
-  width: 180px;
-  color: rgb(208, 228, 255);
-  font-size: 16px;
-}
-
-.selected-hero__faction {
-  height: 50px;
-  width: 50px;
-}
-
-.selected-hero__base {
-  height: 50px;
-  width: 50px;
-}
-
-.selected-hero__class {
-  height: 50px;
-  width: 50px;
+.static__name {
+  height: 40px;
+  width: 100%;
+  font-size: 32px;
+  color: #e2e2e2;
 }
 
 .selected-hero__ascention {
+  height: 30px;
+}
+
+.ascention__level {
   color: #ffffff;
   font-size: 20px;
-
-  border: 1px black solid;
 }
 
-.selected-hero__stars {
-  border: 1px black solid;
+.ascention__stars-area {
 }
 
-.ascention__star {
-  height: 20px;
+.stars-area__image {
+  height: 30px;
 }
 
 .selected-hero__furniture {
-  border: 1px black solid;
 }
 
-.furniture__mythic {
-  height: 20px;
+.furniture__gem {
+  height: 30px;
 }
 
 .selected-hero__gear {
