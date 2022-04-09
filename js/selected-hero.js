@@ -20,7 +20,7 @@ export function card() {
 
   selectedHero.name.textContent = currentHero.name;
   selectedHero.ascention.textContent = currentHero.ascention;
-  selectedHero.faction.src = `img/params/faction_${currentHero.mask[0]}.png`;
+  selectedHero.faction.src = `img/params/faction_${currentHero.mask[0]}.webp`;
   selectedHero.base.src = `img/params/base_${currentHero.mask[1]}.png`;
   selectedHero.class.src = `img/params/class_${currentHero.mask[2]}.png`;
   selectedHero.portrait.src = `img/heroes/${currentHero.bgImage}.jpg`;
