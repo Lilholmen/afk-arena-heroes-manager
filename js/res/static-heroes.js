@@ -9,6 +9,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '422_ath',
   },
   {
@@ -21,6 +23,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '414_eli',
   },
   {
@@ -33,11 +37,13 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '413_flo',
   },
   {
     id: '004',
-    name: 'orthos',
+    name: 'orthros',
     faction: 'celestial',
     base: 'strength',
     class: 'tank',
@@ -45,6 +51,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '401_ort',
   },
   {
@@ -57,6 +65,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '424_tal',
   },
   {
@@ -69,6 +79,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '400_wu ',
   },
   {
@@ -81,6 +93,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '413_zap',
   },
   {
@@ -93,6 +107,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '420_aln',
   },
   {
@@ -105,6 +121,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '413_mor',
   },
   {
@@ -117,6 +135,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '401_tit',
   },
   {
@@ -129,7 +149,37 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '414_hae',
+  },
+  {
+    id: '012',
+    name: 'talene2',
+    faction: 'celestial',
+    base: 'intelligence',
+    class: 'tank',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
+    bgImage: '411_tal',
+  },
+  {
+    id: '013',
+    name: 'audrae',
+    faction: 'celestial',
+    base: 'agility',
+    class: 'ranger',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
+    bgImage: '422_aud',
   },
   {
     id: '101',
@@ -141,6 +191,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '504_ezi',
   },
   {
@@ -153,6 +205,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '513_meh',
   },
   {
@@ -165,6 +219,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '520_zol',
   },
   {
@@ -177,6 +233,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '513_kha',
   },
   {
@@ -189,6 +247,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '501_mez',
   },
   {
@@ -201,6 +261,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '522_luc',
   },
   {
@@ -213,6 +275,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '524_mor',
   },
   {
@@ -225,19 +289,51 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '514_leo',
   },
   {
     id: '109',
     name: 'zikis',
     faction: 'hypogean',
-    base: 'agikity',
+    base: 'agility',
     class: 'ranger',
     ascention: null,
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '522_zik',
+  },
+  {
+    id: '110',
+    name: 'framton',
+    faction: 'hypogean',
+    base: 'agility',
+    class: 'warrior',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
+    bgImage: '520_fram',
+  },
+  {
+    id: '111',
+    name: 'ezizh2',
+    faction: 'hypogean',
+    base: 'intelligence',
+    class: 'ranger',
+    ascention: null,
+    stars: null,
+    si: null,
+    furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
+    bgImage: '513_zik',
   },
   {
     id: '201',
@@ -249,6 +345,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '000_est',
   },
   {
@@ -261,6 +359,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '013_bel',
   },
   {
@@ -273,6 +373,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '024_rai',
   },
   {
@@ -285,6 +387,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '014_ros',
   },
   {
@@ -297,6 +401,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '001_luc',
   },
   {
@@ -309,6 +415,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '022_tha',
   },
   {
@@ -321,6 +429,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '022_faw',
   },
   {
@@ -333,6 +443,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '014_row',
   },
   {
@@ -345,6 +457,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '001_hen',
   },
   {
@@ -357,6 +471,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '002_gwy',
   },
   {
@@ -369,6 +485,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '000_rig',
   },
   {
@@ -381,6 +499,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '022_cec',
   },
   {
@@ -393,6 +513,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '022_osc',
   },
   {
@@ -405,6 +527,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '013_elu',
   },
   {
@@ -417,6 +541,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '014_peg',
   },
   {
@@ -429,6 +555,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '000_wal',
   },
   {
@@ -441,6 +569,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '013_mor',
   },
   {
@@ -453,6 +583,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '101_bru',
   },
   {
@@ -465,6 +597,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '100_kha',
   },
   {
@@ -477,6 +611,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '122_vur',
   },
   {
@@ -489,6 +625,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '114_num',
   },
   {
@@ -501,6 +639,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '100_war',
   },
   {
@@ -513,6 +653,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '101_skr',
   },
   {
@@ -525,6 +667,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '113_saf',
   },
   {
@@ -537,6 +681,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '113_sat',
   },
   {
@@ -549,6 +695,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '120_ant',
   },
   {
@@ -561,6 +709,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '122_tid',
   },
   {
@@ -573,6 +723,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '113_skr',
   },
   {
@@ -585,6 +737,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '100_ano',
   },
   {
@@ -597,6 +751,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '122_dre',
   },
   {
@@ -609,6 +765,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '122_kre',
   },
   {
@@ -621,6 +779,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '113_tha',
   },
   {
@@ -633,6 +793,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '101_gra',
   },
   {
@@ -645,6 +807,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '214_nem',
   },
   {
@@ -657,6 +821,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '222_kaz',
   },
   {
@@ -669,6 +835,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '222_lyc',
   },
   {
@@ -681,6 +849,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '201_ulm',
   },
   {
@@ -693,6 +863,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '201_gor',
   },
   {
@@ -705,6 +877,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '222_eir',
   },
   {
@@ -717,6 +891,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '214_tas',
   },
   {
@@ -729,6 +905,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '200_sei',
   },
   {
@@ -741,6 +919,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '213_lor',
   },
   {
@@ -753,6 +933,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '213_sol',
   },
   {
@@ -765,6 +947,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '200_sau',
   },
   {
@@ -777,6 +961,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '213_pip',
   },
   {
@@ -789,6 +975,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '222_res',
   },
   {
@@ -801,6 +989,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '222_rak',
   },
   {
@@ -813,6 +1003,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '201_mis',
   },
   {
@@ -825,6 +1017,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '301_gre',
   },
   {
@@ -837,6 +1031,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '313_she',
   },
   {
@@ -849,6 +1045,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '313_ode',
   },
   {
@@ -861,6 +1059,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '313_isa',
   },
   {
@@ -873,6 +1073,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '322_fer',
   },
   {
@@ -885,6 +1087,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '301_tho',
   },
   {
@@ -897,6 +1101,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '322_kel',
   },
   {
@@ -909,6 +1115,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '300_nar',
   },
   {
@@ -921,6 +1129,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '320_bad',
   },
   {
@@ -933,6 +1143,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '300_izo',
   },
   {
@@ -945,6 +1157,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '301_tor',
   },
   {
@@ -957,6 +1171,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '301_dai',
   },
   {
@@ -969,6 +1185,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '322_the',
   },
   {
@@ -981,6 +1199,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '314_sil',
   },
   {
@@ -993,6 +1213,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '314_des',
   },
   {
@@ -1005,6 +1227,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '301_hod',
   },
   {
@@ -1017,6 +1241,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '322_tre',
   },
   {
@@ -1029,6 +1255,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '601_art',
   },
   {
@@ -1041,6 +1269,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '622_nak',
   },
   {
@@ -1053,6 +1283,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '620_uky',
   },
   {
@@ -1065,6 +1297,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '622_ezi',
   },
   {
@@ -1077,6 +1311,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '613_ain',
   },
   {
@@ -1089,6 +1325,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '601_alb',
   },
   {
@@ -1101,6 +1339,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '622_jok',
   },
   {
@@ -1113,6 +1353,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '600_que',
   },
   {
@@ -1125,6 +1367,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '622_pri',
   },
   {
@@ -1137,6 +1381,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '614_mer',
   },
   {
@@ -1149,6 +1395,8 @@ export const staticHeroes = [
     stars: null,
     si: null,
     furniture: null,
+    engraving: null,
+    gear: [null, null, null, null],
     bgImage: '613_leo',
   },
 ];

@@ -48,7 +48,7 @@ export function card() {
   }
 
   selectedHero.furniture.innerHTML = '';
-  if (currentHero.furniture) {
+  if (currentHero.furniture != null) {
     for (let i = 0; i < 9; i++) {
       const fur = document.createElement('img');
 
