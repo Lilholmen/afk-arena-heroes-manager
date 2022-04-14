@@ -81,5 +81,20 @@
 }
 
 .selected-hero__gear {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gear__armor,
+.gear__artifact {
+  height: 66px;
+  width: 66px;
+  margin: 0 40px 10px 40px;
+  background-color: hsl(0, 66%, 42%);
+  border: 5px solid #422d00;
+  border-radius: 3px;
+
+  font-size: 32px;
+  color: #e2e2ff;
 }

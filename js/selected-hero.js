@@ -23,6 +23,14 @@ export function card() {
     portrait: container.querySelector('.portrait-area__image'),
     furniture: container.querySelector('.selected-hero__furniture'),
     stars: container.querySelector('.ascention__stars-area'),
+    gear: {
+      weapon: container.querySelector('.gear__armor--weapon'),
+      head: container.querySelector('.gear__armor--head'),
+      chest: container.querySelector('.gear__armor--chest'),
+      legs: container.querySelector('.gear__armor--legs'),
+    },
+    si: container.querySelector('.gear__artifact--si'),
+    engraving: container.querySelector('.gear__artifact--engraving'),
   };
 
   selectedHero.name.textContent = capitalFirstLetter(currentHero.name);
@@ -30,6 +38,12 @@ export function card() {
   selectedHero.base.src = `img/params/base_${currentHero.mask[1]}.png`;
   selectedHero.class.src = `img/params/class_${currentHero.mask[2]}.png`;
   selectedHero.portrait.src = `img/heroes/${currentHero.bgImage}.jpg`;
+  selectedHero.gear.weapon.textContent = 'T' + currentHero.gear[0];
+  selectedHero.gear.head.textContent = 'T' + currentHero.gear[1];
+  selectedHero.gear.chest.textContent = 'T' + currentHero.gear[2];
+  selectedHero.gear.legs.textContent = 'T' + currentHero.gear[3];
+  selectedHero.si.textContent = currentHero.si;
+  selectedHero.engraving.textContent = currentHero.engraving;
 
   selectedHero.stars.innerHTML = '';
   if (currentHero.stars) {
